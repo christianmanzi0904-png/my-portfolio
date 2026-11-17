@@ -1,7 +1,6 @@
-// const button = document.getElementById("changeGoalButton");
-// const goal = document.getElementById("goal");
+const button = document.getElementById("button");
+const message = document.getElementById("message");
 
-// button.addEventListener("click", function () {
-//     goal.textContent =
-//         "I am taking one step closer to becoming a professional developer!";
-// });
+button.addEventListener("click", function () {
+    message.textContent = "Git and GitHub practice is working!";
+});
